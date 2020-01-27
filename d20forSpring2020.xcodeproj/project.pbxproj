@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2CCB16E23DE66BA00BFACDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB16D23DE66BA00BFACDA /* AppDelegate.swift */; };
+		D2CCB17023DE66BA00BFACDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB16F23DE66BA00BFACDA /* SceneDelegate.swift */; };
+		D2CCB17223DE66BA00BFACDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB17123DE66BA00BFACDA /* ViewController.swift */; };
+		D2CCB17523DE66BA00BFACDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB17323DE66BA00BFACDA /* Main.storyboard */; };
+		D2CCB17723DE66BB00BFACDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB17623DE66BB00BFACDA /* Assets.xcassets */; };
+		D2CCB17A23DE66BB00BFACDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB17823DE66BB00BFACDA /* LaunchScreen.storyboard */; };
+		D2CCB18523DE66BB00BFACDA /* d20forSpring2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB18423DE66BB00BFACDA /* d20forSpring2020Tests.swift */; };
+		D2CCB19023DE66BB00BFACDA /* d20forSpring2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB18F23DE66BB00BFACDA /* d20forSpring2020UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CCB18123DE66BB00BFACDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CCB16223DE66BA00BFACDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CCB16923DE66BA00BFACDA;
+			remoteInfo = d20forSpring2020;
+		};
+		D2CCB18C23DE66BB00BFACDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CCB16223DE66BA00BFACDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CCB16923DE66BA00BFACDA;
+			remoteInfo = d20forSpring2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2CCB16A23DE66BA00BFACDA /* d20forSpring2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d20forSpring2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CCB16D23DE66BA00BFACDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2CCB16F23DE66BA00BFACDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2CCB17123DE66BA00BFACDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2CCB17423DE66BA00BFACDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2CCB17623DE66BB00BFACDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2CCB17923DE66BB00BFACDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2CCB17B23DE66BB00BFACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CCB18023DE66BB00BFACDA /* d20forSpring2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = d20forSpring2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CCB18423DE66BB00BFACDA /* d20forSpring2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d20forSpring2020Tests.swift; sourceTree = "<group>"; };
+		D2CCB18623DE66BB00BFACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CCB18B23DE66BB00BFACDA /* d20forSpring2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = d20forSpring2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CCB18F23DE66BB00BFACDA /* d20forSpring2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d20forSpring2020UITests.swift; sourceTree = "<group>"; };
+		D2CCB19123DE66BB00BFACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CCB16723DE66BA00BFACDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB17D23DE66BB00BFACDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB18823DE66BB00BFACDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2CCB16123DE66BA00BFACDA = {
+			isa = PBXGroup;
+			children = (
+				D2CCB16C23DE66BA00BFACDA /* d20forSpring2020 */,
+				D2CCB18323DE66BB00BFACDA /* d20forSpring2020Tests */,
+				D2CCB18E23DE66BB00BFACDA /* d20forSpring2020UITests */,
+				D2CCB16B23DE66BA00BFACDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CCB16B23DE66BA00BFACDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CCB16A23DE66BA00BFACDA /* d20forSpring2020.app */,
+				D2CCB18023DE66BB00BFACDA /* d20forSpring2020Tests.xctest */,
+				D2CCB18B23DE66BB00BFACDA /* d20forSpring2020UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CCB16C23DE66BA00BFACDA /* d20forSpring2020 */ = {
+			isa = PBXGroup;
+			children = (
+				D2CCB16D23DE66BA00BFACDA /* AppDelegate.swift */,
+				D2CCB16F23DE66BA00BFACDA /* SceneDelegate.swift */,
+				D2CCB17123DE66BA00BFACDA /* ViewController.swift */,
+				D2CCB17323DE66BA00BFACDA /* Main.storyboard */,
+				D2CCB17623DE66BB00BFACDA /* Assets.xcassets */,
+				D2CCB17823DE66BB00BFACDA /* LaunchScreen.storyboard */,
+				D2CCB17B23DE66BB00BFACDA /* Info.plist */,
+			);
+			path = d20forSpring2020;
+			sourceTree = "<group>";
+		};
+		D2CCB18323DE66BB00BFACDA /* d20forSpring2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CCB18423DE66BB00BFACDA /* d20forSpring2020Tests.swift */,
+				D2CCB18623DE66BB00BFACDA /* Info.plist */,
+			);
+			path = d20forSpring2020Tests;
+			sourceTree = "<group>";
+		};
+		D2CCB18E23DE66BB00BFACDA /* d20forSpring2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CCB18F23DE66BB00BFACDA /* d20forSpring2020UITests.swift */,
+				D2CCB19123DE66BB00BFACDA /* Info.plist */,
+			);
+			path = d20forSpring2020UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CCB16923DE66BA00BFACDA /* d20forSpring2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CCB19423DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020" */;
+			buildPhases = (
+				D2CCB16623DE66BA00BFACDA /* Sources */,
+				D2CCB16723DE66BA00BFACDA /* Frameworks */,
+				D2CCB16823DE66BA00BFACDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = d20forSpring2020;
+			productName = d20forSpring2020;
+			productReference = D2CCB16A23DE66BA00BFACDA /* d20forSpring2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CCB17F23DE66BB00BFACDA /* d20forSpring2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CCB19723DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020Tests" */;
+			buildPhases = (
+				D2CCB17C23DE66BB00BFACDA /* Sources */,
+				D2CCB17D23DE66BB00BFACDA /* Frameworks */,
+				D2CCB17E23DE66BB00BFACDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CCB18223DE66BB00BFACDA /* PBXTargetDependency */,
+			);
+			name = d20forSpring2020Tests;
+			productName = d20forSpring2020Tests;
+			productReference = D2CCB18023DE66BB00BFACDA /* d20forSpring2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2CCB18A23DE66BB00BFACDA /* d20forSpring2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CCB19A23DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020UITests" */;
+			buildPhases = (
+				D2CCB18723DE66BB00BFACDA /* Sources */,
+				D2CCB18823DE66BB00BFACDA /* Frameworks */,
+				D2CCB18923DE66BB00BFACDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CCB18D23DE66BB00BFACDA /* PBXTargetDependency */,
+			);
+			name = d20forSpring2020UITests;
+			productName = d20forSpring2020UITests;
+			productReference = D2CCB18B23DE66BB00BFACDA /* d20forSpring2020UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CCB16223DE66BA00BFACDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Tendaishe Gwini";
+				TargetAttributes = {
+					D2CCB16923DE66BA00BFACDA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D2CCB17F23DE66BB00BFACDA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D2CCB16923DE66BA00BFACDA;
+					};
+					D2CCB18A23DE66BB00BFACDA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D2CCB16923DE66BA00BFACDA;
+					};
+				};
+			};
+			buildConfigurationList = D2CCB16523DE66BA00BFACDA /* Build configuration list for PBXProject "d20forSpring2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CCB16123DE66BA00BFACDA;
+			productRefGroup = D2CCB16B23DE66BA00BFACDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CCB16923DE66BA00BFACDA /* d20forSpring2020 */,
+				D2CCB17F23DE66BB00BFACDA /* d20forSpring2020Tests */,
+				D2CCB18A23DE66BB00BFACDA /* d20forSpring2020UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CCB16823DE66BA00BFACDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CCB17A23DE66BB00BFACDA /* LaunchScreen.storyboard in Resources */,
+				D2CCB17723DE66BB00BFACDA /* Assets.xcassets in Resources */,
+				D2CCB17523DE66BA00BFACDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB17E23DE66BB00BFACDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB18923DE66BB00BFACDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CCB16623DE66BA00BFACDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CCB17223DE66BA00BFACDA /* ViewController.swift in Sources */,
+				D2CCB16E23DE66BA00BFACDA /* AppDelegate.swift in Sources */,
+				D2CCB17023DE66BA00BFACDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB17C23DE66BB00BFACDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CCB18523DE66BB00BFACDA /* d20forSpring2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CCB18723DE66BB00BFACDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CCB19023DE66BB00BFACDA /* d20forSpring2020UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CCB18223DE66BB00BFACDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CCB16923DE66BA00BFACDA /* d20forSpring2020 */;
+			targetProxy = D2CCB18123DE66BB00BFACDA /* PBXContainerItemProxy */;
+		};
+		D2CCB18D23DE66BB00BFACDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CCB16923DE66BA00BFACDA /* d20forSpring2020 */;
+			targetProxy = D2CCB18C23DE66BB00BFACDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2CCB17323DE66BA00BFACDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CCB17423DE66BA00BFACDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2CCB17823DE66BB00BFACDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CCB17923DE66BB00BFACDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2CCB19223DE66BB00BFACDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2CCB19323DE66BB00BFACDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CCB19523DE66BB00BFACDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2CCB19623DE66BB00BFACDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2CCB19823DE66BB00BFACDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/d20forSpring2020.app/d20forSpring2020";
+			};
+			name = Debug;
+		};
+		D2CCB19923DE66BB00BFACDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/d20forSpring2020.app/d20forSpring2020";
+			};
+			name = Release;
+		};
+		D2CCB19B23DE66BB00BFACDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = d20forSpring2020;
+			};
+			name = Debug;
+		};
+		D2CCB19C23DE66BB00BFACDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CGXTTVKR2;
+				INFOPLIST_FILE = d20forSpring2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tentech.d20forSpring2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = d20forSpring2020;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CCB16523DE66BA00BFACDA /* Build configuration list for PBXProject "d20forSpring2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CCB19223DE66BB00BFACDA /* Debug */,
+				D2CCB19323DE66BB00BFACDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CCB19423DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CCB19523DE66BB00BFACDA /* Debug */,
+				D2CCB19623DE66BB00BFACDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CCB19723DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CCB19823DE66BB00BFACDA /* Debug */,
+				D2CCB19923DE66BB00BFACDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CCB19A23DE66BB00BFACDA /* Build configuration list for PBXNativeTarget "d20forSpring2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CCB19B23DE66BB00BFACDA /* Debug */,
+				D2CCB19C23DE66BB00BFACDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CCB16223DE66BA00BFACDA /* Project object */;
+}
