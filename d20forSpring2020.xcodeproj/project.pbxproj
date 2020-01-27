@@ -15,6 +15,9 @@
 		D2CCB17A23DE66BB00BFACDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB17823DE66BB00BFACDA /* LaunchScreen.storyboard */; };
 		D2CCB18523DE66BB00BFACDA /* d20forSpring2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB18423DE66BB00BFACDA /* d20forSpring2020Tests.swift */; };
 		D2CCB19023DE66BB00BFACDA /* d20forSpring2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCB18F23DE66BB00BFACDA /* d20forSpring2020UITests.swift */; };
+		D2CCB1A023DE89B900BFACDA /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB19D23DE89B900BFACDA /* zfanfare.mp3 */; };
+		D2CCB1A123DE89B900BFACDA /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB19E23DE89B900BFACDA /* failwah.mp3 */; };
+		D2CCB1A223DE89B900BFACDA /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2CCB19F23DE89B900BFACDA /* rolldice.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D2CCB18B23DE66BB00BFACDA /* d20forSpring2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = d20forSpring2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CCB18F23DE66BB00BFACDA /* d20forSpring2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d20forSpring2020UITests.swift; sourceTree = "<group>"; };
 		D2CCB19123DE66BB00BFACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CCB19D23DE89B900BFACDA /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		D2CCB19E23DE89B900BFACDA /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
+		D2CCB19F23DE89B900BFACDA /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				D2CCB16F23DE66BA00BFACDA /* SceneDelegate.swift */,
 				D2CCB17123DE66BA00BFACDA /* ViewController.swift */,
 				D2CCB17323DE66BA00BFACDA /* Main.storyboard */,
+				D2CCB19E23DE89B900BFACDA /* failwah.mp3 */,
+				D2CCB19F23DE89B900BFACDA /* rolldice.mp3 */,
+				D2CCB19D23DE89B900BFACDA /* zfanfare.mp3 */,
 				D2CCB17623DE66BB00BFACDA /* Assets.xcassets */,
 				D2CCB17823DE66BB00BFACDA /* LaunchScreen.storyboard */,
 				D2CCB17B23DE66BB00BFACDA /* Info.plist */,
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CCB1A223DE89B900BFACDA /* rolldice.mp3 in Resources */,
 				D2CCB17A23DE66BB00BFACDA /* LaunchScreen.storyboard in Resources */,
+				D2CCB1A123DE89B900BFACDA /* failwah.mp3 in Resources */,
 				D2CCB17723DE66BB00BFACDA /* Assets.xcassets in Resources */,
 				D2CCB17523DE66BA00BFACDA /* Main.storyboard in Resources */,
+				D2CCB1A023DE89B900BFACDA /* zfanfare.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
